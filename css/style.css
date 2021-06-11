@@ -5,5 +5,36 @@
 }
 
 /* common */
+.container {
+    position: relative;
+    width: 980px;
+    height: 450px;
+    margin: 20px auto 0;
+    background-color: white;
+}
+
+img {
+    width: 320px;
+    height: 450px;
+}
+
+.foto-1 {
+    position: absolute;
+    left: 0;
+}
+
+.foto-2 {
+    position: absolute;
+    left: 330px;
+}
+
+.foto-3 {
+    position: absolute;
+    left: 660px;
+}
 
 /* common */
+
+/* body */
+
+/* / body */
