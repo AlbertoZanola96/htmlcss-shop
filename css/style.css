@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
-/* common  */
+/* common */
+
+.card {
+    display: inline-block;
+    margin-right: 5px;
+}
 .container1 {
     position: relative;
-    width: 50%;
+    width: 60%;
     height: 450px;
     margin: 0 auto;
     background-color: black;
@@ -19,6 +24,13 @@ img {
     height: 450px;
 }
 
+.rosso{
+    color: red;
+}
+/* / common */
+
+
+/* foto1 */
 .sconto {
     position: absolute;
     left: 0;
@@ -58,38 +70,69 @@ img {
     text-align: center;
 }
 
-.rosso{
-    color: red;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.prima-foto {
+.prima-foto1 {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.prima-foto:hover {
+.prima-foto1:hover {
     display: none;
 }
+/* / foto1 */
+
+/* foto2  */
+.prima-foto2 {
+    position: absolute;
+    top: 0;
+    left: 310px;
+    z-index: 2;
+}
+
+.seconda-foto2 {
+    position: absolute;
+    top: 0;
+    left: 310px;
+    z-index: 1;
+}
+
+.prima-foto2:hover {
+    display: none;
+}
+
+.sconto2 {
+    position: absolute;
+    left: 310px;
+    bottom: 20px;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(235, 20, 56);
+    color: white;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 3;
+}
+
+.cuore2 {
+    position: absolute;
+    top: 10px;
+    left: 560px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    font-size: 30px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 3;
+}
+/* / foto2  */
+
+
+
+
+
+
+
+
