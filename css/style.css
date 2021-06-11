@@ -4,42 +4,28 @@
     box-sizing: border-box;
 }
 
-/* common */
-.container {
+/* common  */
+.container1 {
     position: relative;
-    width: 980px;
+    width: 50%;
     height: 450px;
-    margin: 20px auto 60px;
-    background-color: white;
+    margin: 0 auto;
+    background-color: black;
+    margin-top: 20px;
 }
 
 img {
-    width: 320px;
+    width: 300px;
     height: 450px;
-}
-
-.foto-1 {
-    position: absolute;
-    left: 0;
-}
-
-.foto-2 {
-    position: absolute;
-    left: 330px;
-}
-
-.foto-3 {
-    position: absolute;
-    left: 660px;
 }
 
 .sconto {
     position: absolute;
-    top: 400px;
     left: 0;
+    bottom: 20px;
     width: 50px;
     height: 30px;
-    background-color: rgb(255, 0, 55);
+    background-color: rgb(235, 20, 56);
     color: white;
     line-height: 30px;
     vertical-align: middle;
@@ -48,12 +34,12 @@ img {
 
 .sustain {
     position: absolute;
-    top: 400px;
     left: 55px;
+    bottom: 20px;
     width: 100px;
     height: 30px;
+    background-color: rgb(32, 134, 71);
     color: white;
-    background-color: seagreen;
     line-height: 30px;
     vertical-align: middle;
     text-align: center;
@@ -61,39 +47,49 @@ img {
 
 .cuore {
     position: absolute;
-    top: 25px;
-    left: 270px;
+    top: 10px;
+    left: 250px;
     width: 50px;
     height: 50px;
     background-color: white;
+    font-size: 30px;
     line-height: 50px;
     vertical-align: middle;
-    font-size: 30px;
     text-align: center;
-
 }
 
-.prezzo {
-    color: rgb(255, 0, 55);;
+.rosso{
+    color: red;
 }
 
-.barra {
-    text-decoration: line-through;;
-}
-/* common */
 
-/* body */
-#sustain-unico{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prima-foto {
     position: absolute;
-    top: 400px;
+    top: 0;
     left: 0;
-    width: 100px;
-    height: 30px;
-    color: white;
-    background-color: seagreen;
-    line-height: 30px;
-    vertical-align: middle;
-    text-align: center;
 }
 
-/* / body */
+.prima-foto:hover {
+    display: none;
+}
