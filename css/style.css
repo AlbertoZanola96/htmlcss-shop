@@ -24,7 +24,7 @@
     width: 920px;
     height: 450px;
     margin: 0 auto;
-    background-color: black;
+    background-color: white;
     margin-top: 65px;
 
 }
@@ -205,7 +205,55 @@ img {
 }
 /* / foto5  */
 
+/* foto6 */
+.prima-foto6 {
+    position: absolute;
+    top: 0;
+    left: 620px;
+    z-index: 2;
+}
 
+.seconda-foto6 {
+    position: absolute;
+    top: 0;
+    left: 620px;
+    z-index: 1;
+}
 
+.prima-foto6:hover {
+    display: none;
+}
 
+.cuore4 {
+    position: absolute;
+    top: 10px;
+    left: 870px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    font-size: 30px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 3;
+}
+
+.sustain2 {
+    position: absolute;
+    left: 620px;
+    bottom: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(32, 134, 71);
+    color: white;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 4;
+}
+.testo6 {
+    position: absolute;
+    top: 455px;
+    left: 620px;
+}
 
