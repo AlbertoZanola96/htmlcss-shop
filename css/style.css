@@ -12,10 +12,10 @@
 }
 .container1 {
     position: relative;
-    width: 60%;
+    width: 920px;
     height: 450px;
     margin: 0 auto;
-    background-color: black;
+    background-color: white;
     margin-top: 20px;
 }
 
@@ -128,6 +128,24 @@ img {
     z-index: 3;
 }
 /* / foto2  */
+
+/* foto3 */
+.prima-foto3 {
+    position: absolute;
+    top: 0;
+    left: 620px;
+}
+
+.testo3 {
+    position: absolute;
+    top: 455px;
+    left: 620px;
+}
+
+#font {
+    font-size: 18px;
+}
+/* / foto3 */
 
 
 
