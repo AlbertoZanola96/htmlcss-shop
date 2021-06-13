@@ -5,12 +5,11 @@
 }
 
 /* common */
-
 .card {
     display: inline-block;
     margin-right: 5px;
 }
-.container1 {
+.container {
     position: relative;
     width: 920px;
     height: 450px;
@@ -19,14 +18,8 @@
     margin-top: 20px;
 }
 
-.container2 {
-    position: relative;
-    width: 920px;
-    height: 450px;
-    margin: 0 auto;
-    background-color: white;
+body > div:last-child {
     margin-top: 65px;
-
 }
 
 img {
@@ -36,6 +29,22 @@ img {
 
 .rosso{
     color: red;
+    font-size: 18px;
+}
+
+.prima-foto-blocco:hover, 
+.prima-foto2:hover,
+.prima-foto4:hover,
+.prima-foto5:hover,
+.prima-foto6:hover {
+    display: none;
+}
+
+.testo-speciale {
+    position: absolute;
+    top: 455px;
+    left: 620px;
+    font-size: 15px;
 }
 /* / common */
 
@@ -80,14 +89,10 @@ img {
     text-align: center;
 }
 
-.prima-foto1 {
+.prima-foto-blocco {
     position: absolute;
     top: 0;
     left: 0;
-}
-
-.prima-foto1:hover {
-    display: none;
 }
 /* / foto1 */
 
@@ -106,35 +111,17 @@ img {
     z-index: 1;
 }
 
-.prima-foto2:hover {
-    display: none;
-}
-
-.sconto2 {
+.sconto-2 {
     position: absolute;
     left: 310px;
     bottom: 20px;
-    width: 50px;
-    height: 30px;
-    background-color: rgb(235, 20, 56);
-    color: white;
-    line-height: 30px;
-    vertical-align: middle;
-    text-align: center;
     z-index: 3;
 }
 
-.cuore2 {
+.cuore-2 {
     position: absolute;
     top: 10px;
     left: 560px;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    font-size: 30px;
-    line-height: 50px;
-    vertical-align: middle;
-    text-align: center;
     z-index: 3;
 }
 /* / foto2  */
@@ -145,31 +132,7 @@ img {
     top: 0;
     left: 620px;
 }
-
-.testo3 {
-    position: absolute;
-    top: 455px;
-    left: 620px;
-}
-
-#font {
-    font-size: 17px;
-}
 /* / foto3 */
-
-
-/* foto4  */
-.prima-foto4 {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.prima-foto4:hover {
-    display: none;
-}
-/* / foto */
-
 
 /* foto5  */
 .prima-foto5 {
@@ -186,21 +149,10 @@ img {
     z-index: 1;
 }
 
-.prima-foto5:hover {
-    display: none;
-}
-
-.cuore3 {
+.cuore-3 {
     position: absolute;
     top: 10px;
     left: 560px;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    font-size: 30px;
-    line-height: 50px;
-    vertical-align: middle;
-    text-align: center;
     z-index: 3;
 }
 /* / foto5  */
@@ -220,40 +172,17 @@ img {
     z-index: 1;
 }
 
-.prima-foto6:hover {
-    display: none;
-}
-
-.cuore4 {
+.cuore-4 {
     position: absolute;
     top: 10px;
     left: 870px;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    font-size: 30px;
-    line-height: 50px;
-    vertical-align: middle;
-    text-align: center;
     z-index: 3;
 }
 
-.sustain2 {
+.sustain-2 {
     position: absolute;
     left: 620px;
     bottom: 20px;
-    width: 100px;
-    height: 30px;
-    background-color: rgb(32, 134, 71);
-    color: white;
-    line-height: 30px;
-    vertical-align: middle;
-    text-align: center;
     z-index: 4;
 }
-.testo6 {
-    position: absolute;
-    top: 455px;
-    left: 620px;
-}
-
+/* / foto6 */
